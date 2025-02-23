@@ -151,10 +151,10 @@ reflexive closure. The third rule achieves the transitive closure.
 The definition is truly elegant. If you doubt this, try implementing `Star` as a
 recursive function: -/
 
+-- TODO seems like impossible
 def starRec {α : Type} (R : α → α → Bool) :
   α → α → Bool :=
   sorry
-
 
 /- ### A Nonexample
 
